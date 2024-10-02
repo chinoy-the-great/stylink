@@ -1,0 +1,40 @@
+/* Success Message */
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    text-align: center;
+}
+.success-message p{
+    color: #155724;
+    text-align: center;
+
+}
+.error-message {
+    background-color: #ffa3a3;
+    color: #b80b43;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.error-message p{
+    color: #b80b43;
+    text-align: center;
+
+}
+
+.alert-message {
+    background-color: #ffeda3;
+    color: #b77409;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #cfbd74;
+    border-radius: 4px;
+    text-align: center;
+}

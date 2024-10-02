@@ -1,0 +1,36 @@
+
+                    .message-popup {
+                        position: fixed;
+                        /* Position it relative to the viewport */
+                        bottom: 20px;
+                        /* Adjust distance from the top */
+                        right: 20px;
+                        /* Adjust distance from the right */
+                        padding: 15px 25px;
+                        border-radius: 5px;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                        z-index: 99999;
+                        /* Ensure it's above other content */
+                        font-weight: normal;
+                        opacity: 0;
+                        /* Start hidden */
+                        transition: opacity 0.5s ease;
+                        /* Smooth fade-in effect */
+                    }
+
+                    .message-popup.success {
+                        background-color: #4CAF50;
+                        /* Green */
+                        color: white;
+                    }
+
+                    .message-popup.error {
+                        background-color: #f44336;
+                        /* Red */
+                        color: white;
+                    }
+
+                    /* Show the popup after a slight delay */
+                    .message-popup.show {
+                        opacity: 1;
+                    }

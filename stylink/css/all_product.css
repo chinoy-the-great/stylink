@@ -1,0 +1,530 @@
+
+    .product-image {
+        position: relative;
+    }
+
+    .product-image img {
+        width: 80%;
+        aspect-ratio: 1 / 1;
+        /* Sets a 1:1 aspect ratio directly */
+        object-fit: cover;
+    }
+
+    /* Basic Colors */
+    .PINK .pink {
+        background-color: #ee7ca2;
+    }
+
+    .BLACK {
+        background-color: #000000;
+    }
+
+    .WHITE,
+    .White {
+        background-color: #ffffff;
+    }
+
+    .RED,
+    .Red {
+        background-color: #ff0000;
+    }
+
+    .GREEN .Green {
+        background-color: #00ff00;
+    }
+
+    .BLUE {
+        background-color: #24369f;
+    }
+
+    .YELLOW,
+    .Yellow {
+        background-color: #ffff00;
+    }
+
+    .PURPLE {
+        background-color: #800080;
+    }
+
+    .ORANGE {
+        background-color: #ffa500;
+    }
+
+    .GRAY {
+        background-color: #808080;
+    }
+
+    .VIOLET {
+        background-color: #55006a;
+    }
+
+    /* Modern & Aesthetic Colors */
+    .TEAL {
+        background-color: #008080;
+    }
+
+    .AQUA {
+        background-color: #00ffff;
+    }
+
+    .CORAL {
+        background-color: #ff7f50;
+    }
+
+    .FUCHSIA {
+        background-color: #ff00ff;
+    }
+
+    .INDIGO {
+        background-color: #4b0082;
+    }
+
+    .LIME {
+        background-color: #00ff00;
+    }
+
+    .OLIVE {
+        background-color: #808000;
+    }
+
+    .TURQUOISE {
+        background-color: #40e0d0;
+    }
+
+    /* Earthy & Neutral Tones */
+    .BEIGE {
+        background-color: #f5f5dc;
+    }
+
+    .BROWN {
+        background-color: #a52a2a;
+    }
+
+    .CREAM {
+        background-color: #fffdd0;
+    }
+
+    .KHAKI {
+        background-color: #f0e68c;
+    }
+
+    .MAUVE {
+        background-color: #e0b0ff;
+    }
+
+    .TAN {
+        background-color: #d2b48c;
+    }
+
+    .TAUPE {
+        background-color: #483c32;
+    }
+
+    .ECRU {
+        background-color: #c2b280;
+    }
+
+    /* Coffee-Inspired Colors */
+    .COFFEE {
+        background-color: #6f4e37;
+    }
+
+    .LATTE {
+        background-color: #c59475;
+    }
+
+    .MOCHA {
+        background-color: #855944;
+    }
+
+    .ESPRESSO {
+        background-color: #4e2f27;
+    }
+
+    .CAPPUCCINO {
+        background-color: #9f8170;
+    }
+
+    /* Basic Colors & Shades */
+    .BLACK {
+        background-color: #000000;
+    }
+
+    .BLACK-LIGHT {
+        background-color: #333333;
+    }
+
+    .BLACK-DARK {
+        background-color: #1a1a1a;
+    }
+
+    .WHITE {
+        background-color: #ffffff;
+    }
+
+    .WHITE-LIGHT {
+        background-color: #f2f2f2;
+    }
+
+    .WHITE-DARK {
+        background-color: #e6e6e6;
+    }
+
+    .RED {
+        background-color: #ff0000;
+    }
+
+    .RED-LIGHT {
+        background-color: #ff6666;
+    }
+
+    .RED-DARK {
+        background-color: #cc0000;
+    }
+
+    .GREEN {
+        background-color: #00ff00;
+    }
+
+    .GREEN-LIGHT {
+        background-color: #99ff99;
+    }
+
+    .GREEN-DARK {
+        background-color: #00cc00;
+    }
+
+    .BLUE {
+        background-color: #24369f;
+    }
+
+    .BLUE-LIGHT {
+        background-color: #6477cf;
+    }
+
+    .BLUE-DARK {
+        background-color: #192564;
+    }
+
+    .YELLOW {
+        background-color: #ffff00;
+    }
+
+    .YELLOW-LIGHT {
+        background-color: #ffff99;
+    }
+
+    .YELLOW-DARK {
+        background-color: #cccc00;
+    }
+
+    .PURPLE {
+        background-color: #800080;
+    }
+
+    .PURPLE-LIGHT {
+        background-color: #cc99ff;
+    }
+
+    .PURPLE-DARK {
+        background-color: #4b0082;
+    }
+
+    .ORANGE {
+        background-color: #ffa500;
+    }
+
+    .ORANGE-LIGHT {
+        background-color: #ffc878;
+    }
+
+    .ORANGE-DARK {
+        background-color: #d98c00;
+    }
+
+    .GRAY {
+        background-color: #808080;
+    }
+
+    .GRAY-LIGHT {
+        background-color: #cccccc;
+    }
+
+    .GRAY-DARK {
+        background-color: #555555;
+    }
+
+    /* Modern & Aesthetic Colors & Shades */
+    .TEAL {
+        background-color: #008080;
+    }
+
+    .TEAL-LIGHT {
+        background-color: #4db8b8;
+    }
+
+    .TEAL-DARK {
+        background-color: #006666;
+    }
+
+    .AQUA {
+        background-color: #00ffff;
+    }
+
+    .AQUA-LIGHT {
+        background-color: #66ffff;
+    }
+
+    .AQUA-DARK {
+        background-color: #00cccc;
+    }
+
+    /* ... (Other modern & aesthetic colors & shades) ... */
+
+    /* Earthy & Neutral Tones & Shades */
+    .BEIGE {
+        background-color: #f5f5dc;
+    }
+
+    .BEIGE-LIGHT {
+        background-color: #f8f8e8;
+    }
+
+    .BEIGE-DARK {
+        background-color: #d9d9b3;
+    }
+
+    .BROWN {
+        background-color: #a52a2a;
+    }
+
+    .BROWN-LIGHT {
+        background-color: #c55a5a;
+    }
+
+    .BROWN-DARK {
+        background-color: #800000;
+    }
+
+    /* ... (Other earthy & neutral colors & shades) ... */
+
+    /* Coffee-Inspired Colors & Shades */
+    .COFFEE {
+        background-color: #6f4e37;
+    }
+
+    .COFFEE-LIGHT {
+        background-color: #a17c6b;
+    }
+
+    .COFFEE-DARK {
+        background-color: #513525;
+    }
+
+    .LATTE {
+        background-color: #c59475;
+    }
+
+    .LATTE-LIGHT {
+        background-color: #d8b9a2;
+    }
+
+    .LATTE-DARK {
+        background-color: #9c6d4b;
+    }
+
+    /* Modern & Aesthetic Colors & Shades */
+    .TEAL {
+        background-color: #008080;
+    }
+
+    .TEAL-LIGHT {
+        background-color: #4db8b8;
+    }
+
+    .TEAL-DARK {
+        background-color: #006666;
+    }
+
+    .AQUA {
+        background-color: #00ffff;
+    }
+
+    .AQUA-LIGHT {
+        background-color: #66ffff;
+    }
+
+    .AQUA-DARK {
+        background-color: #00cccc;
+    }
+
+    .CORAL {
+        background-color: #ff7f50;
+    }
+
+    .CORAL-LIGHT {
+        background-color: #ffb399;
+    }
+
+    .CORAL-DARK {
+        background-color: #e6602e;
+    }
+
+    .FUCHSIA {
+        background-color: #ff00ff;
+    }
+
+    .FUCHSIA-LIGHT {
+        background-color: #ff99ff;
+    }
+
+    .FUCHSIA-DARK {
+        background-color: #cc00cc;
+    }
+
+    .INDIGO {
+        background-color: #4b0082;
+    }
+
+    .INDIGO-LIGHT {
+        background-color: #8a55d7;
+    }
+
+    .INDIGO-DARK {
+        background-color: #360059;
+    }
+
+    .LIME {
+        background-color: #00ff00;
+    }
+
+    .LIME-LIGHT {
+        background-color: #99ff99;
+    }
+
+    .LIME-DARK {
+        background-color: #00cc00;
+    }
+
+    .OLIVE {
+        background-color: #808000;
+    }
+
+    .OLIVE-LIGHT {
+        background-color: #c0c066;
+    }
+
+    .OLIVE-DARK {
+        background-color: #666600;
+    }
+
+    .TURQUOISE {
+        background-color: #40e0d0;
+    }
+
+    .TURQUOISE-LIGHT {
+        background-color: #79f2e6;
+    }
+
+    .TURQUOISE-DARK {
+        background-color: #20b2aa;
+    }
+
+    /* Earthy & Neutral Tones & Shades */
+    .BEIGE {
+        background-color: #f5f5dc;
+    }
+
+    .BEIGE-LIGHT {
+        background-color: #f8f8e8;
+    }
+
+    .BEIGE-DARK {
+        background-color: #d9d9b3;
+    }
+
+    .BROWN {
+        background-color: #a52a2a;
+    }
+
+    .BROWN-LIGHT {
+        background-color: #c55a5a;
+    }
+
+    .BROWN-DARK {
+        background-color: #800000;
+    }
+
+    .CREAM {
+        background-color: #fffdd0;
+    }
+
+    .CREAM-LIGHT {
+        background-color: #ffffe6;
+    }
+
+    .CREAM-DARK {
+        background-color: #ece0a1;
+    }
+
+    .KHAKI {
+        background-color: #f0e68c;
+    }
+
+    .KHAKI-LIGHT {
+        background-color: #f7f2d4;
+    }
+
+    .KHAKI-DARK {
+        background-color: #bdb76b;
+    }
+
+    .MAUVE {
+        background-color: #e0b0ff;
+    }
+
+    .MAUVE-LIGHT {
+        background-color: #e6ccff;
+    }
+
+    .MAUVE-DARK {
+        background-color: #b380cc;
+    }
+
+    .TAN {
+        background-color: #d2b48c;
+    }
+
+    .TAN-LIGHT {
+        background-color: #d9c4a8;
+    }
+
+    .TAN-DARK {
+        background-color: #998560;
+    }
+
+    .TAUPE {
+        background-color: #483c32;
+    }
+
+    .TAUPE-LIGHT {
+        background-color: #78685a;
+    }
+
+    .TAUPE-DARK {
+        background-color: #30251c;
+    }
+
+    .ECRU {
+        background-color: #c2b280;
+    }
+
+    .ECRU-LIGHT {
+        background-color: #d4c49c;
+    }
+
+    .ECRU-DARK {
+        background-color: #948550;
+    }
+
+    /* Coffee-Inspired Colors & Shades */
