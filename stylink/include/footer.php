@@ -27,7 +27,7 @@
                         <div class="footer-logo">
                             <img src="images/menu/logo/5.png" width="300px" alt="Footer Logo">
                             <p class="info">
-                                We provide the best that they trusted us and buy our product without any hagitation because they belive us and always happy to buy.
+                                Upgrade the best version of YOU.
                             </p>
                         </div>
                         <ul class="des">
