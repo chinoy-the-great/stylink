@@ -4,17 +4,53 @@ session_start();
 include("include/config.php");
 include("include/head.php");
 
-
 ob_end_flush();
 
 ?>
 <style>
+    .shop-top-bar {
+        display: flex;
+
+        justify-content: center
+    }
+
+    .icon-row {
+        display: flex; /* Use flexbox to arrange icons horizontally */
+        justify-content: space-around; /* Space the items evenly */
+        align-items: center; /* Center items vertically */
+        padding: 20px; /* Add some padding around the row */
+    }
+
+    .icon-container {
+        text-align: center; /* Center text below icons */
+    }
+
+    .icon-container i {
+        font-size: 30px; /* Size of the icons */
+        color: #dc6e63; /* Change to your desired icon color */
+        margin-bottom: 10px; /* Space between icon and label */
+    }
+
+    .icon-container p {
+        margin: 0; /* Remove default margin for paragraphs */
+        font-size: 14px; /* Font size for the labels */
+        color: #333; /* Change to your desired text color */
+    }
+
+    .banner-container {
+        max-height: 220px; /* Set your desired max height */
+        overflow: hidden; /* Hide any content that overflows */
+    }
+
     body {
         background-color: #c9cba3; /* Main color in theme */
         font-family: 'Arial', sans-serif;
         color: #000000;
     }
 
+    .product-area {
+        background: #ffffff;
+    }
 
     .product-image {
         position: relative;
@@ -71,6 +107,8 @@ ob_end_flush();
 
 
 </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <body>
     <!--[if lt IE 8]>
@@ -134,12 +172,12 @@ ob_end_flush();
                     <!-- Begin Li Banner Area -->
                     <br>
                     <div class="col-lg-4 col-md-4 text-center pt-xs-30">
-                        <div class="li-banner"> <br> <br>
+                        <div class="banner-container li-banner"> <br> <br>
                             <a href="#">
                                 <img src="images/banner/stock-pic-shirt.jpg" alt="">
                             </a>
                         </div>
-                        <div class="li-banner mt-15 mt-sm-30 mt-xs-30">
+                        <div class="banner-container li-banner mt-15 mt-sm-30 mt-xs-30">
                             <a href="#">
                                 <img src="images/banner/stock-pic-shoes.jpg" alt="">
                             </a>
@@ -151,7 +189,7 @@ ob_end_flush();
         </div>
         <!-- Slider With Banner Area End Here -->
         <!-- Begin Product Area -->
-        <div class="product-area pt-60 pb-50">
+        <div class="product-area pt-50 pb-50">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -365,7 +403,29 @@ ob_end_flush();
                     </div>
                 </div>
             </div>
+
+
+            <div class="icon-row pt-120 pb-60">
+                <div class="icon-container">
+                    <i class="fa fa-truck"></i> <!-- Free Shipping Icon -->
+                    <p>Free Shipping For ₱1000+ Orders.</p>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-undo"></i> <!-- Free Returns Icon -->
+                    <p>Easy Returns Within 10 Days</p>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-headset"></i> <!-- Customer Support Icon -->
+                    <p>24/7 Customer Support</p>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-star"></i> <!-- Membership Discounts Icon -->
+                    <p>Membership Discounts</p>
+                </div>
+            </div>
         </div>
+
+
         <!-- Product Area End Here -->
         <!-- Begin Li's Static Banner Area -->
         <!-- <div class="li-static-banner">
@@ -494,13 +554,6 @@ ob_end_flush();
                         </div> -->
                         <!-- Li's Banner Area End Here -->
                         <!-- shop-top-bar start -->
-                        <style>
-                            .shop-top-bar {
-                                display: flex;
-
-                                justify-content: center
-                            }
-                        </style>
                         <div class="shop-top-bar mt-30">
                             <div class="shop-bar-inner">
                                 <div class="product-view-mode">
