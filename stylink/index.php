@@ -9,6 +9,13 @@ ob_end_flush();
 
 ?>
 <style>
+    body {
+        background-color: #c9cba3; /* Main color in theme */
+        font-family: 'Arial', sans-serif;
+        color: #000000;
+    }
+
+
     .product-image {
         position: relative;
     }
@@ -28,7 +35,41 @@ ob_end_flush();
     cursor: pointer;
     padding-top: 20px;
     text-transform: capitalize;
-}
+    }
+
+    .slider-with-banner {
+        margin-top: 20px; /* Adjust this value as needed */
+    }
+
+    .slider-with-banner .row {
+        display: flex;
+        align-items: stretch; /* This keeps the slider and the banners the same height */
+    }
+
+    .slider-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .li-banner {
+        height: 50%; /* Each banner will take 50% of the right section */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li-banner img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; /* Ensures the images fill the space without distorting */
+    }
+
+    .mt-15 {
+        margin-top: 15px;
+    }
+
+
 </style>
 
 <body>
@@ -50,10 +91,10 @@ ob_end_flush();
                                 <div class="single-slide align-center-left  animation-style-01 bg-1">
                                     <div class="slider-progress"></div>
                                     <div class="slider-content">
-                                        <h5>Sale Offer This Week</h5>
-                                        <h2>Trendy Corduroy Shorts for Men With 2 POCKETS</h2>
+                                        <h5><strong><span>BIG DROP</span> THIS WEEK</strong></h5>
+                                        <h2>100% Cotton Hoodies</h2>
                                         <h3>Starting at <span>
-                                                ₱72 - ₱80</span></h3>
+                                                ₱99</span></h3>
                                         <div class="default-btn slide-btn">
                                             <a class="links" href="#">Shopping Now</a>
                                         </div>
@@ -64,11 +105,11 @@ ob_end_flush();
                                 <div class="single-slide align-center-left animation-style-02 bg-2">
                                     <div class="slider-progress"></div>
                                     <div class="slider-content">
-                                        <h5>Sale Offer <span>Black Friday</span> This Week</h5>
-                                        <h2>Oversize Streetwear T shirt Urban Fashion trendy</h2>
+                                        <h5><span>5th Anniversary Sale</span> This Week</h5>
+                                        <h2>Oversized Fashion, Streetwear, Vintage Shirts, and more</h2>
                                         <h3>Starting at <span>₱98</span></h3>
                                         <div class="default-btn slide-btn">
-                                            <a class="links" href="#">Shopping Now</a>
+                                            <a class="links" href="#">Start Shopping</a>
                                         </div>
                                     </div>
                                 </div>
@@ -81,7 +122,7 @@ ob_end_flush();
                                         <h2>Korean Plain Pullover Sweater </h2>
                                         <h3>Starting at <span>₱99</span></h3>
                                         <div class="default-btn slide-btn">
-                                            <a class="links" href="#">Shopping Now</a>
+                                            <a class="links" href="#">Start Shopping</a>
                                         </div>
                                     </div>
                                 </div>
@@ -95,12 +136,12 @@ ob_end_flush();
                     <div class="col-lg-4 col-md-4 text-center pt-xs-30">
                         <div class="li-banner"> <br> <br>
                             <a href="#">
-                                <img src="images/banner/3.png" alt="">
+                                <img src="images/banner/stock-pic-shirt.jpg" alt="">
                             </a>
                         </div>
                         <div class="li-banner mt-15 mt-sm-30 mt-xs-30">
                             <a href="#">
-                                <img src="images/banner/4.png" alt="">
+                                <img src="images/banner/stock-pic-shoes.jpg" alt="">
                             </a>
                         </div>
                     </div>
