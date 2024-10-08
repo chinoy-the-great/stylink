@@ -4987,7 +4987,7 @@ span.required {
   width: 100%;
 }
 .shop-products-wrapper .tab-content .tab-pane.active {
-    /*display: block;*/
+    display: block;
 }
 .shop-products-wrapper .tab-content .tab-pane {
     display: none;
